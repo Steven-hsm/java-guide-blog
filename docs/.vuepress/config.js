@@ -23,7 +23,7 @@ export default defineUserConfig({
             {text: '分布式', link: 'https://google.com'},
             {text: '工具', link: 'https://google.com'},
         ],
-        sidebarDepth:4
+        sidebarDepth:4,
     })
 
 })
