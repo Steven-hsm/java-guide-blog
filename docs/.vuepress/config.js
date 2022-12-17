@@ -10,7 +10,9 @@ export default defineUserConfig({
         //配置顶部导航栏的条目
         navbar: [
             {text: '文档搭建', link: '/文档构建.md'},
-            {text: 'java基础', children:['www.baidu.com','www.baidu.com']},
+            {text: 'java', children:[
+                '/java/java基础.md',
+                 '/java/java进阶.md']},
             {text: 'web基础', link: 'https://google.com'},
             {text: 'spring', link: 'https://google.com'},
             {text: 'spring全家桶', link: 'https://google.com'},
