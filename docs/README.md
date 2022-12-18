@@ -2,7 +2,12 @@
 提取码：1234
 ## 技术类书籍
 ### java
-[阿里巴巴开发手册](https://pan.baidu.com/s/1RuqyHHXPxtIiGeuwcDPcJQ) [java开发实战经典](https://pan.baidu.com/s/1f87GqCj1cUChw35GaNkKtg) [设置模式之禅](https://pan.baidu.com/s/128WYXmTcYymLbNzPTO_-8w)
+[阿里巴巴开发手册](https://pan.baidu.com/s/1RuqyHHXPxtIiGeuwcDPcJQ) [java开发实战经典](https://pan.baidu.com/s/1f87GqCj1cUChw35GaNkKtg) [设计模式之禅](https://pan.baidu.com/s/128WYXmTcYymLbNzPTO_-8w)
 
 ## 其他类书籍
 [三体1-3](https://pan.baidu.com/s/1TjNHHA3VaRhea0is86dvSw)
+
+
+
+[参考](https://pdai.tech/)
+
