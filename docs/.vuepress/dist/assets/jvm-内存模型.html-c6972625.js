@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-e2af7550","path":"/java/jvm-%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html","title":"jvm-内存模型","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"java/jvm-内存模型.md"}');export{t as data};
