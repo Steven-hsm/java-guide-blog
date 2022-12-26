@@ -15,7 +15,7 @@ export default defineUserConfig({
                  '/java/java进阶-异常.md','/java/java进阶-注解.md','/java/java进阶-反射.md','/java/java进阶-泛型.md',
                  '/java/jvm-内存模型.md','/java/jvm-垃圾回收.md','/java/jvm-内存调优.md','/java/jvm-arthas.md']},
             {text: '设计模式', children:[
-                '/设计模式/单例模式.md',
+                '/设计模式/单例模式.md'
                 ]},
             {text: 'web基础', link: 'https://google.com'},
             {text: 'spring', link: 'https://google.com'},

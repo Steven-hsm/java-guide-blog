@@ -79,13 +79,16 @@ public enum RetentionPolicy {
 > 定义注解后，如何获取注解中的内容呢？反射包java.lang.reflect下的AnnotatedElement接口提供这些方法。这里注意：只有注解被定义为RUNTIME后，该注解才能是运行时可见，当class文件被装载时被保存在class文件中的Annotation才会被虚拟机读取。
 
 AnnotatedElement 接口是所有程序元素（Class、Method和Constructor）的父接口，所以程序通过反射获取了某个类的AnnotatedElement对象之后，程序就可以调用该对象的方法来访问Annotation信息。我们看下具体的相关接口
-* boolean isAnnotationPresent(Class<?extends Annotation> annotationClass)
-* <T extends Annotation> T getAnnotation(Class<T> annotationClass)
-* Annotation[] getAnnotations()
-* <T extends Annotation> T[] getAnnotationsByType(Class<T> annotationClass)
-* <T extends Annotation> T getDeclaredAnnotation(Class<T> annotationClass)
-* <T extends Annotation> T[] getDeclaredAnnotationsByType(Class<T> annotationClass)
-* Annotation[] getDeclaredAnnotations()
+```java
+boolean isAnnotationPresent(Class<?extends Annotation> annotationClass);
+<T extends Annotation> T getAnnotation(Class<T> annotationClass);
+Annotation[] getAnnotations();
+<T extends Annotation> T[] getAnnotationsByType(Class<T> annotationClass);
+<T extends Annotation> T getDeclaredAnnotation(Class<T> annotationClass);
+<T extends Annotation> T[] getDeclaredAnnotationsByType(Class<T> annotationClass);
+Annotation[] getDeclaredAnnotations();
+```
+
  
 ## 深入理解注解
 注解可以理解成一个标识，在获取类的元信息时，可以拿到这个标识，然后根据标识进行一系列的操作。
