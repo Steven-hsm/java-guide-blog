@@ -49,38 +49,7 @@
 * 访问父类的构造函数: 可以使用 super() 函数访问父类的构造函数，从而委托父类完成一些初始化的工作。
 * 访问父类的成员: 如果子类重写了父类的中某个方法的实现，可以通过使用 super 关键字来引用父类的方法实现。
 
-## synchronized
-被称为同步代码块，在应用Sychronized关键字时需要把握如下注意点：
-* 一把锁只能同时被一个线程获取，没有获得锁的线程只能等待；
-* 每个实例都对应有自己的一把锁(this),不同实例之间互不影响；例外：锁对象是*.class以及synchronized修饰的是static方法的时候，所有对象公用同一把锁
-* synchronized修饰的方法，无论方法正常执行完毕还是抛出异常，都会释放锁
-**对象锁**
-包括方法锁(默认锁对象为this,当前实例对象)和同步代码块锁(自己指定锁对象)
-1. 代码块形式：手动指定锁定对象，也可是是this,也可以是自定义的锁
-```java
-synchronized (this){
-}
-
-Object block1 = new Object();
-synchronized (block1){
-}
-```
-2. 方法锁形式：synchronized修饰普通方法，锁对象默认为this
-```java
-public synchronized void method() {
-}
-```
-**类锁**
-指synchronize修饰静态的方法或指定锁对象为Class对象
-
-3. synchronize修饰静态方法
-   * synchronized用在静态方法上，默认的锁就是当前所在的Class类，所以无论是哪个线程访问它，需要的锁都只有一把
-4. synchronized指定锁对象为Class对象
-   * 所有线程需要的锁都是同一把 
+## synchronized 
 
 ## volatile
-volatile提供了另一种解决可见性和有序性问题的方案
-**防重排序**
-**实现可见性**
-
 

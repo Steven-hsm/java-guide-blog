@@ -13,11 +13,7 @@ export default defineUserConfig({
             {text: 'java', children:[
                 '/java/java基础-基本介绍.md','/java/java基础-面对对象.md','/java/java基础-特殊关键字.md','/java/java基础-String.md',
                  '/java/java进阶-异常.md','/java/java进阶-注解.md','/java/java进阶-反射.md','/java/java进阶-泛型.md',
-                 '/java/java多线程-理论基础.md','/java/java多线程-线程基础.md','/java/java多线程-锁的分类.md',
                  '/java/jvm-内存模型.md','/java/jvm-垃圾回收.md','/java/jvm-内存调优.md','/java/jvm-arthas.md']},
-            {text: '设计模式', children:[
-                '/设计模式/单例模式.md'
-                ]},
             {text: 'web基础', link: 'https://google.com'},
             {text: 'spring', link: 'https://google.com'},
             {text: 'spring全家桶', link: 'https://google.com'},
