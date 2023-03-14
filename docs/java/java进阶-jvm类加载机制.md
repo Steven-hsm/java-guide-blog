@@ -77,7 +77,7 @@ public Launcher() {
 
 **双亲委派机制**
 
-![image-20230207215748792](D:\code\java-guide-blog\docs\images\双亲委派机制.png)
+![image-20230207215748792](../images/双亲委派机制.png)
 
 这里类加载其实就有一个**双亲委派机制**，加载某个类时会先委托父加载器寻找目标类，找不到再
 

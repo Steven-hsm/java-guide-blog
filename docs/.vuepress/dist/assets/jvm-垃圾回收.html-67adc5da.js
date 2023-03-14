@@ -1,1 +1,0 @@
-import{_ as t,p as _,q as a,R as e,t as c}from"./framework-8fa3e4ce.js";const r={},s=e("h1",{id:"jvm-垃圾回收机制",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#jvm-垃圾回收机制","aria-hidden":"true"},"#"),c(" jvm-垃圾回收机制")],-1),o=[s];function n(d,i){return _(),a("div",null,o)}const h=t(r,[["render",n],["__file","jvm-垃圾回收.html.vue"]]);export{h as default};

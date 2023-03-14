@@ -1,6 +1,6 @@
 ### 1. Mysql内部结构
 
-![image-20230307185153545](..\images\Mysql内部结构.png)
+![image-20230307185153545](../images/Mysql内部结构.png)
 
 大体来说，MySQL 可以分为 Server 层和存储引擎层两部分。
 
@@ -146,11 +146,11 @@
 5. 生成执行计划 
 6. 计划的执行
 
-![image-20230307192555391](..\images\Mysql词法分析.png)
+![image-20230307192555391](../images/Mysql词法分析.png)
 
 SQL语句的分析分为词法分析与语法分析，mysql的词法分析由MySQLLex[MySQL自己实现的]完成，语法分析由Bison生 成。关于语法树大家如果想要深入研究可以参考这篇wiki文章：https://en.wikipedia.org/wiki/LR_parser。那么除了Bison 外，Java当中也有开源的词法结构分析工具例如Antlr4，ANTLR从语法生成一个解析器，可以构建和遍历解析树，可以在IDEA 工具当中安装插件：**antlr v4 grammar plugin。插件使用详见课程** 经过bison语法分析之后，会生成一个这样的语法树 
 
-![image-20230307192745777](..\images\Mysql-语法分析树.png)
+![image-20230307192745777](../images/Mysql-语法分析树.png)
 
 ##### 1.1.4 优化器
 
