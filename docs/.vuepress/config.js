@@ -18,7 +18,10 @@ export default defineUserConfig({
             {text: 'spring', link: 'https://google.com'},
             {text: 'spring全家桶', link: 'https://google.com'},
             {text: '中间件', link: 'https://google.com'},
-            {text: '数据结构', link: 'https://google.com'},
+            {text: 'Mysql', children:[
+                    '/mysql/Mysql索引底层结构.md','/mysql/Mysql执行流程.md','/mysql/MysqlExplain解析.md',
+                    '/mysql/Mysql索引优化实战.md','/mysql/Mysql锁与事务.md'
+                   ]},
             {text: '算法', link: 'https://google.com'},
             {text: '数据结构', link: 'https://google.com'},
             {text: '分布式', link: 'https://google.com'},
